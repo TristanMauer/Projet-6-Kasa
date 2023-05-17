@@ -1,0 +1,25 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.liens{
+    margin-right: 1em;
+    text-decoration: none;
+    font-size: 24px;
+
+}
+
+@media screen and (max-width:720px){
+    .logo-kasa{
+        width:133px;
+        height: 57px;
+    }
+     
+     .liens{
+         font-size: 14px;
+     }
+ }

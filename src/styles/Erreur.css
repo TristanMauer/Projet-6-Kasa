@@ -1,0 +1,17 @@
+.message-erreur{
+     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1em;
+   
+}
+.message-404{
+    font-size: 8em;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+}
+.p-erreur{
+    font-size: 2em;
+    margin: 0 0 50px 50px;
+}
