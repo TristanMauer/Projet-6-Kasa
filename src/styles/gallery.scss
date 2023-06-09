@@ -1,0 +1,27 @@
+@import './utils/_mixins';
+@import './utils/variables';
+
+
+.gallery{
+    max-width: 1400px;
+    width: 90%;
+    @include flex;
+    background-color: $color-tertiary;
+    border-radius: 25px;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 0 auto;
+    padding: 50px 55px;
+
+    @media screen and (max-width:1250px){
+        padding: 0;
+        padding: 40px 45px;
+    }
+    @media screen and (max-width: 720px){
+        padding: 0;
+        width: 100%;
+        background-color: $color-primary;
+    }
+
+
+}

@@ -1,0 +1,24 @@
+@import './utils/_variables.scss';
+
+*{
+  margin: 0;
+}
+#root{
+  margin:  auto;}
+body{
+  
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;  
+  
+}
+a{
+color: $color-secondary;
+text-decoration: none;
+}
+.container{
+  max-width: 1400px;
+  margin: auto;
+  min-height: 100vh; 
+}
+

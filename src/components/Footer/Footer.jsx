@@ -1,12 +1,12 @@
 import logo from '../../assets/logo-blanc.png';
-import  '../../styles/Footer.css';
+import  '../../styles/Footer.scss';
 
 function Footer(){
     return (
-        <div className='footer'>
+        <footer className='footer'>
         <img className="logo-kasa-blanc" src={logo} alt="logo de l'agence kasa" />
-        <p> © 2020 Kasa. All rights reserved</p>
-        </div>
+        <p className="footer_copyright"> © 2020 Kasa. All rights reserved</p>
+        </footer>
     )
 }
 

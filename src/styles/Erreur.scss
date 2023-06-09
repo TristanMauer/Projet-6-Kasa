@@ -1,0 +1,27 @@
+@import './utils/_variables.scss';
+@import './utils/_mixins';
+
+.message-erreur {
+    color: $color-secondary;
+    width: 100%;
+    margin-top: 50px;
+    @include flex ( column);
+    font-size: 1em;
+  
+    .message-404 {
+      font-size: 8em;
+      font-weight: 700;
+      margin-bottom: 0.2em;
+    }
+  
+    .p-erreur {
+      font-size: 2em;
+      margin: 0 0 50px 50px;
+    }
+  
+    .lien-accueil {
+      text-decoration: underline;
+      font-size: 1em;
+      margin: 200px 0 200px 0;
+    }
+  }

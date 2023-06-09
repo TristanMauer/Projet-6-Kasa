@@ -1,0 +1,45 @@
+@import './utils/_variables.scss';
+@import './utils/_mixins';
+
+.card {
+  margin: auto;
+  width: 340px;
+  height: 330px;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  cursor: pointer;
+  @media (max-width: 1200px) {
+    height: 270px;
+  }
+@media screen and (max-width: 810px){
+  width: 90%;
+    height: 250px;
+}
+ 
+  .image-carte {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    position: relative;
+    filter: brightness(90%);
+    transition: 0.3s;
+
+    &:hover {
+      filter: none;
+    }
+  }
+
+  .titre-carte {
+    color: $color-primary;
+    font-size: 1rem;
+    font-weight: 500;
+    position: absolute;
+    text-transform: none;
+    bottom: 0;
+    margin: 15px 20px;
+    background: linear-gradient(180deg, #FF6060 0%, rgba(255, 96, 96, 0.5) 100%);
+    padding: 5px 10px;
+    border-radius: 10px;
+  }
+}
