@@ -14,3 +14,4 @@ Pour ce projet je devais créer une application en ReactJs pour un site de locat
 ```bash
   yarn start
 ```
+lien vers le site : https://projet6-kasa.netlify.app/
